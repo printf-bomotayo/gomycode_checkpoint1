@@ -1,0 +1,7 @@
+n = int(input("Enter an integer value for n: "))
+def factorial(n):
+   if n == 1: #base case
+       return n
+   else:
+       return n*factorial(n-1)
+print(factorial(n))
