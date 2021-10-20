@@ -1,0 +1,8 @@
+import numpy as np
+array1 = [0, 1, 2]
+array2 = [2, 1, 0]
+
+data = np.array([array1, array2])
+
+covMatrix = np.cov(data, bias=False)
+print(covMatrix)
