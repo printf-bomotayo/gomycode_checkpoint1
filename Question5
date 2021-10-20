@@ -1,0 +1,5 @@
+import numpy as np
+python_array = np.array([(0, 1), (2, 3), (4, 5)])
+list_array = python_array.tolist()
+
+list_array
